@@ -16,7 +16,7 @@ function genWheel() {
 
 function getTimeData() {
     var d = new Date();
-    day = (d.getDay() + 5) % 6;
+    day = (d.getDay() + 6) % 7;
     time = d.getHours() * 100 + d.getMinutes();
 }
 
