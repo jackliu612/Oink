@@ -10,7 +10,7 @@ function genWheel() {
     for (var i = 0; i < locs.length; i++) {
         url += "c" + (i + 1) + "=" + locs[i] + "&"
     }
-    url += "time=5";
+    url += "time=5&t=Where+Should+You+Eat?";
     window.location.replace(url);
 }
 
